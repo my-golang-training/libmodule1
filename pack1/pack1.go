@@ -6,6 +6,7 @@ import(
 
 func Nop(){
 	slog.Info("Nop() of libmodule1/pack1/pack1.go")
+	slog.Info("Release", slog.String("version","1.0.0"))
 	return
 }
 
